@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+.env.local
+
+# IDEs & OS
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Alembic
+alembic/versions/*.pyc
