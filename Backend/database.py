@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 # Database URL from environment variable or default to SQLite
-SQLALCHEMY_DATABASE_URL='postgresql://postgres:789645@localhost/ToDoAPP'
+SQLALCHEMY_DATABASE_URL='postgresql://postgres:789645@localhost/Outlinn'
 
 # Create the database engine
 engine = create_engine(

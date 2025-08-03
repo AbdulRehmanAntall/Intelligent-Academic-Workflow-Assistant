@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware  
-from Backend.database import engine, Base, get_db
-from Backend.models.testmodel import TestModel
+from Backend.database import engine, Base
 from fastapi import FastAPI, Depends
 from Backend.Routers import testroutes
 
